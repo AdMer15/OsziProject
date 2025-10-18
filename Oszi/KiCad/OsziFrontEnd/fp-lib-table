@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "L432KC")(type "KiCad")(uri "${KIPRJMOD}/LibaryOszi/footprint.pretty")(options "")(descr ""))
+  (lib (name "ILI9341")(type "KiCad")(uri "${KIPRJMOD}/LibaryOszi/Display.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/LibaryOszi/Display.pretty/Library.pretty")(options "")(descr ""))
+)

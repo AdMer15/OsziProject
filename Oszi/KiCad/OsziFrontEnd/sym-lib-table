@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NUCLEO-L432KC")(type "KiCad")(uri "${KIPRJMOD}/LibaryOszi/NUCLEO-L432KC.kicad_sym")(options "")(descr ""))
+  (lib (name "Display")(type "KiCad")(uri "C:/Users/chris/Schule/Labor/Labor4Klasse/Oszi/KiCad/Altium_Package_library/Altium_Package_library/Display.kicad_sym")(options "")(descr ""))
+)

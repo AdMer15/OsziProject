@@ -1,0 +1,1826 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5e71aeee-d882-4565-9fe7-24a51d8e8ba0")
+	(paper "A4")
+	(lib_symbols
+		(symbol "NUCLEO-L432KC:NUCLEO-L432KC"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 21.082 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "NUCLEO-L432KC"
+				(at -10.16 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "NUCLEO-L432KC:MODULE_NUCLEO-L432KC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "STMicroelectronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "N/A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/NUCLEO-L432KC/STMicroelectronics/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "N/A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/NUCLEO-L432KC/STMicroelectronics/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "NUCLEO-L432KC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "STM32L432KC, mbed-Enabled Development Nucleo-32 STM32L4 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "ST Microelectronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "NUCLEO-L432KC_1_0"
+				(rectangle
+					(start -10.16 -17.78)
+					(end 10.16 17.78)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "CN3"
+					(at -10.16 18.542 0)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 12.7 0)
+					(length 5.08)
+					(name "NRST_CN3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN3_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 7.62 0)
+					(length 5.08)
+					(name "PA8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN3_12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "PA9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN3_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "PA10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN3_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "PA11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN3_13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "PA12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN3_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -7.62 0)
+					(length 5.08)
+					(name "PC14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN3_10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -10.16 0)
+					(length 5.08)
+					(name "PC15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN3_11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "PB0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN3_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "PB1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN3_9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "PB4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN3_15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN3_14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "PB6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN3_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "PB7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN3_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "GND_CN3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN3_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NUCLEO-L432KC_2_0"
+				(rectangle
+					(start -10.16 -17.78)
+					(end 10.16 17.78)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "CN4"
+					(at -10.16 18.542 0)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin input line
+					(at -15.24 7.62 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "NRST_CN4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "PA0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "PA1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -7.62 0)
+					(length 5.08)
+					(name "PA2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -10.16 0)
+					(length 5.08)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 12.7 180)
+					(length 5.08)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "AREF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "PB3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -10.16 180)
+					(length 5.08)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "GND_CN4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDD_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Spannungsregler kann bis zu 300mA\n"
+		(exclude_from_sim no)
+		(at 255.778 120.396 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "8dd72cff-aad8-44e8-b361-636891e96401")
+	)
+	(text "5 MS/s"
+		(exclude_from_sim no)
+		(at 253.746 21.59 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "a45ba56e-956f-431d-9531-4d4cecbe855d")
+	)
+	(text "gnd = AGnd\n"
+		(exclude_from_sim no)
+		(at 265.43 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c69f5d46-3a19-4710-a7e6-5ace471c87cc")
+	)
+	(no_connect
+		(at 212.09 137.16)
+		(uuid "042b9c0c-13c5-4410-b207-fc20a74203bd")
+	)
+	(no_connect
+		(at 212.09 132.08)
+		(uuid "0bff543a-adb5-492e-8693-96f08628973c")
+	)
+	(no_connect
+		(at 212.09 55.88)
+		(uuid "22414aed-1ef4-4fec-82c5-761d5767caae")
+	)
+	(no_connect
+		(at 242.57 71.12)
+		(uuid "38347bfb-548b-4538-be09-856571570a01")
+	)
+	(no_connect
+		(at 212.09 66.04)
+		(uuid "40569eca-9a6e-49bc-8b08-d7da4b7e7add")
+	)
+	(no_connect
+		(at 212.09 71.12)
+		(uuid "4a025aa8-eb00-436e-833c-1c54cbd9c294")
+	)
+	(no_connect
+		(at 242.57 73.66)
+		(uuid "57692193-0a74-4479-acf8-3a18686627a7")
+	)
+	(no_connect
+		(at 212.09 147.32)
+		(uuid "5a0a8cec-3677-431e-85c1-b8398fcd1b14")
+	)
+	(no_connect
+		(at 212.09 63.5)
+		(uuid "5d259941-c2ce-4fb7-ac64-dc7577d8f555")
+	)
+	(no_connect
+		(at 242.57 144.78)
+		(uuid "6b1a32b6-ea24-4bb2-a899-f93d87914a4c")
+	)
+	(no_connect
+		(at 242.57 68.58)
+		(uuid "95c03a46-be08-422a-8835-e00ea76d018c")
+	)
+	(no_connect
+		(at 212.09 60.96)
+		(uuid "cc008a4a-ff3f-4fa1-83ef-a0e4103498d8")
+	)
+	(no_connect
+		(at 242.57 137.16)
+		(uuid "d06cea69-a6a2-4e05-b692-79625d260f43")
+	)
+	(no_connect
+		(at 242.57 142.24)
+		(uuid "d23f6137-d6a5-4425-b28e-41f79399e619")
+	)
+	(no_connect
+		(at 242.57 66.04)
+		(uuid "e45d180c-a51e-4f2b-bac8-216eaadba925")
+	)
+	(no_connect
+		(at 212.09 76.2)
+		(uuid "eb92966c-fbd6-4f48-9478-ad81904bb59e")
+	)
+	(no_connect
+		(at 212.09 68.58)
+		(uuid "ec5faae8-4a34-4bcc-9453-7dd705312e67")
+	)
+	(no_connect
+		(at 242.57 132.08)
+		(uuid "ed13e9f6-e753-4b58-8f87-75e5fe813940")
+	)
+	(no_connect
+		(at 212.09 149.86)
+		(uuid "f1664508-6fd5-42a2-a81c-236e8513cd08")
+	)
+	(no_connect
+		(at 242.57 149.86)
+		(uuid "f3ca63df-9c4d-40b9-812d-e516461af0a8")
+	)
+	(no_connect
+		(at 242.57 147.32)
+		(uuid "fb655aa0-0f24-4da1-bbc2-2a0003713161")
+	)
+	(no_connect
+		(at 212.09 78.74)
+		(uuid "fee6b358-1f67-47fc-9d10-c0e32d2e8e33")
+	)
+	(wire
+		(pts
+			(xy 242.57 60.96) (xy 247.65 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a7b1380-c080-49ed-9e1e-28644b0039bf")
+	)
+	(wire
+		(pts
+			(xy 242.57 127) (xy 245.11 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4460e3a6-165a-42d0-8c7c-391093605442")
+	)
+	(wire
+		(pts
+			(xy 242.57 154.94) (xy 242.57 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860f787c-e0c7-489d-bd4a-734373656b55")
+	)
+	(wire
+		(pts
+			(xy 208.28 144.78) (xy 212.09 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879cc488-700b-4263-994f-c2c03dfc9c17")
+	)
+	(wire
+		(pts
+			(xy 208.28 142.24) (xy 212.09 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e7fffc-fded-4c70-9109-4d4ac4866b53")
+	)
+	(wire
+		(pts
+			(xy 242.57 63.5) (xy 247.65 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "989a92fd-87fb-41cd-9b2f-6d3c18e48e1f")
+	)
+	(wire
+		(pts
+			(xy 242.57 83.82) (xy 242.57 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d02870-793e-459d-b6d5-16e4314092df")
+	)
+	(hierarchical_label "ADC_CH2_36V"
+		(shape input)
+		(at 208.28 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "02ccbf2c-4cea-4545-bd47-637ea15be079")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 242.57 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "26cc169a-c1ba-4a55-ba7a-d5cfdc7f6558")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 245.11 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "62ca6448-58ca-4b41-9174-c017e3dbef7b")
+	)
+	(hierarchical_label "ADC_CH2_10V"
+		(shape input)
+		(at 208.28 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "88059e8a-ba5e-4d1b-afe0-87e9fa580ddb")
+	)
+	(hierarchical_label "ADC_CH1_10V"
+		(shape input)
+		(at 247.65 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "98b5a364-cd35-4e95-8ee0-f8e2c0573f59")
+	)
+	(hierarchical_label "ADC_CH1_1V"
+		(shape input)
+		(at 247.65 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c1aa642c-0317-4b5d-9c99-a2b87b8501d9")
+	)
+	(symbol
+		(lib_id "NUCLEO-L432KC:NUCLEO-L432KC")
+		(at 227.33 139.7 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8c1265f-11ed-4983-8f59-14a8bcab3bef")
+		(property "Reference" "U3"
+			(at 227.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NUCLEO-L432KC"
+			(at 227.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "L432KC:MODULE_NUCLEO-L432KC"
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "STMicroelectronics"
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "N/A"
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/NUCLEO-L432KC/STMicroelectronics/view-part/?ref=eda"
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NUCLEO-L432KC/STMicroelectronics/view-part/?ref=snap"
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "NUCLEO-L432KC"
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "STM32L432KC, mbed-Enabled Development Nucleo-32 STM32L4 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ST Microelectronics"
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "CN3_6"
+			(uuid "36407ccf-7546-4ee5-be30-5434748d1d0a")
+		)
+		(pin "CN3_14"
+			(uuid "8ec6b188-0f38-4011-bab5-b403624dee3f")
+		)
+		(pin "CN3_3"
+			(uuid "55f085ef-6e38-4e2f-b5ce-7c88ab9ef98c")
+		)
+		(pin "CN3_4"
+			(uuid "655af94b-268c-4d28-bc9a-08c9f7a24ea3")
+		)
+		(pin "CN3_1"
+			(uuid "2a0da962-1815-4c80-9d78-473c2ae45d2d")
+		)
+		(pin "CN3_2"
+			(uuid "fa5be31c-91a2-476d-93c0-df3f6460fa3c")
+		)
+		(pin "CN3_13"
+			(uuid "9622b03f-bed0-4e56-b390-08871b36839e")
+		)
+		(pin "CN3_5"
+			(uuid "bca0817e-20a5-4b8f-97ae-19c266f5059d")
+		)
+		(pin "CN3_10"
+			(uuid "fe9ab158-7ea5-483e-b56c-7dfb61509a90")
+		)
+		(pin "CN3_11"
+			(uuid "cfd44b1c-a3ba-4d8c-8a90-3e327cf413d4")
+		)
+		(pin "CN3_12"
+			(uuid "2561fad1-ba11-4a47-9a19-a4809796945d")
+		)
+		(pin "CN3_9"
+			(uuid "b5fe777b-adfa-4c13-bf4f-b08b06f7b334")
+		)
+		(pin "CN3_15"
+			(uuid "b1b5244d-9b3a-44c2-9a3f-862de14fd263")
+		)
+		(pin "CN3_8"
+			(uuid "f1f0fe42-0485-4fa0-b46f-23615bfcaef8")
+		)
+		(pin "CN3_7"
+			(uuid "51bc5407-1fa9-4670-bdbe-a23722401c15")
+		)
+		(pin "CN4_6"
+			(uuid "a6bde302-6ba2-4973-84c4-e239c3620d60")
+		)
+		(pin "CN4_13"
+			(uuid "3c09f94f-d15b-44fb-8480-14d6377268b2")
+		)
+		(pin "CN4_7"
+			(uuid "99aee90d-f2e3-4133-98d9-be88e7eecd59")
+		)
+		(pin "CN4_9"
+			(uuid "1c14c00d-0e0b-42a4-8bec-710476ca7ae5")
+		)
+		(pin "CN4_14"
+			(uuid "69287bf5-f741-4d5e-bcd4-17cbc9776476")
+		)
+		(pin "CN4_1"
+			(uuid "9c64e082-c523-4cc7-96fb-7f2b714d3ea9")
+		)
+		(pin "CN4_2"
+			(uuid "b5155289-7524-49f1-8c68-e75dfd74bc80")
+		)
+		(pin "CN4_10"
+			(uuid "f5561baf-9924-4c2f-8729-7a9b7c0fa380")
+		)
+		(pin "CN4_11"
+			(uuid "47f408f7-3a54-465b-8753-8c4613552cf1")
+		)
+		(pin "CN4_4"
+			(uuid "27547f57-1ff4-4861-a35a-f463150b15ce")
+		)
+		(pin "CN4_5"
+			(uuid "c2697f48-3686-41b5-bdd2-66e8887eae51")
+		)
+		(pin "CN4_3"
+			(uuid "fe4ed4df-27d1-4c31-ac44-907ef775de4d")
+		)
+		(pin "CN4_15"
+			(uuid "38b74bee-91ce-44c5-af76-d136235575ca")
+		)
+		(pin "CN4_12"
+			(uuid "6c5ee399-6e8b-477d-b0f2-4bc23c74f5ba")
+		)
+		(pin "CN4_8"
+			(uuid "abcbf6c7-b908-4e36-a6f0-be484e6aa06e")
+		)
+		(instances
+			(project "OsziFrontEnd"
+				(path "/1ef80f41-06dd-4c8e-92a0-a0266e9ecde0/fad6845e-a1ac-483b-9b0a-3993df256835"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 242.57 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e725636d-fa36-4e5a-a19b-5d75ffafa273")
+		(property "Reference" "#PWR014"
+			(at 242.57 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 242.57 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 242.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8be46fd6-c9e1-4823-be83-a4c6ad05fd34")
+		)
+		(instances
+			(project "OsziFrontEnd"
+				(path "/1ef80f41-06dd-4c8e-92a0-a0266e9ecde0/fad6845e-a1ac-483b-9b0a-3993df256835"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 242.57 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5f87cfd-f29b-4457-b8bc-bc017c7c1fe6")
+		(property "Reference" "#PWR011"
+			(at 242.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 242.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 242.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9588a8ca-4a9e-4ebc-8027-ce0188b1b865")
+		)
+		(instances
+			(project "OsziFrontEnd"
+				(path "/1ef80f41-06dd-4c8e-92a0-a0266e9ecde0/fad6845e-a1ac-483b-9b0a-3993df256835"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NUCLEO-L432KC:NUCLEO-L432KC")
+		(at 227.33 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb25a74c-44d9-4aac-b038-499dbef5ad4f")
+		(property "Reference" "U3"
+			(at 227.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NUCLEO-L432KC"
+			(at 227.33 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "L432KC:MODULE_NUCLEO-L432KC"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "STMicroelectronics"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "N/A"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/NUCLEO-L432KC/STMicroelectronics/view-part/?ref=eda"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NUCLEO-L432KC/STMicroelectronics/view-part/?ref=snap"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "NUCLEO-L432KC"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "STM32L432KC, mbed-Enabled Development Nucleo-32 STM32L4 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ST Microelectronics"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "CN3_6"
+			(uuid "36407ccf-7546-4ee5-be30-5434748d1d0b")
+		)
+		(pin "CN3_14"
+			(uuid "8ec6b188-0f38-4011-bab5-b403624dee40")
+		)
+		(pin "CN3_3"
+			(uuid "55f085ef-6e38-4e2f-b5ce-7c88ab9ef98d")
+		)
+		(pin "CN3_4"
+			(uuid "655af94b-268c-4d28-bc9a-08c9f7a24ea4")
+		)
+		(pin "CN3_1"
+			(uuid "2a0da962-1815-4c80-9d78-473c2ae45d2e")
+		)
+		(pin "CN3_2"
+			(uuid "fa5be31c-91a2-476d-93c0-df3f6460fa3d")
+		)
+		(pin "CN3_13"
+			(uuid "9622b03f-bed0-4e56-b390-08871b36839f")
+		)
+		(pin "CN3_5"
+			(uuid "bca0817e-20a5-4b8f-97ae-19c266f5059e")
+		)
+		(pin "CN3_10"
+			(uuid "fe9ab158-7ea5-483e-b56c-7dfb61509a91")
+		)
+		(pin "CN3_11"
+			(uuid "cfd44b1c-a3ba-4d8c-8a90-3e327cf413d5")
+		)
+		(pin "CN3_12"
+			(uuid "2561fad1-ba11-4a47-9a19-a4809796945e")
+		)
+		(pin "CN3_9"
+			(uuid "b5fe777b-adfa-4c13-bf4f-b08b06f7b335")
+		)
+		(pin "CN3_15"
+			(uuid "b1b5244d-9b3a-44c2-9a3f-862de14fd264")
+		)
+		(pin "CN3_8"
+			(uuid "f1f0fe42-0485-4fa0-b46f-23615bfcaef9")
+		)
+		(pin "CN3_7"
+			(uuid "51bc5407-1fa9-4670-bdbe-a23722401c16")
+		)
+		(pin "CN4_6"
+			(uuid "a6bde302-6ba2-4973-84c4-e239c3620d61")
+		)
+		(pin "CN4_13"
+			(uuid "3c09f94f-d15b-44fb-8480-14d6377268b3")
+		)
+		(pin "CN4_7"
+			(uuid "99aee90d-f2e3-4133-98d9-be88e7eecd5a")
+		)
+		(pin "CN4_9"
+			(uuid "1c14c00d-0e0b-42a4-8bec-710476ca7ae6")
+		)
+		(pin "CN4_14"
+			(uuid "69287bf5-f741-4d5e-bcd4-17cbc9776477")
+		)
+		(pin "CN4_1"
+			(uuid "9c64e082-c523-4cc7-96fb-7f2b714d3eaa")
+		)
+		(pin "CN4_2"
+			(uuid "b5155289-7524-49f1-8c68-e75dfd74bc81")
+		)
+		(pin "CN4_10"
+			(uuid "f5561baf-9924-4c2f-8729-7a9b7c0fa381")
+		)
+		(pin "CN4_11"
+			(uuid "47f408f7-3a54-465b-8753-8c4613552cf2")
+		)
+		(pin "CN4_4"
+			(uuid "27547f57-1ff4-4861-a35a-f463150b15cf")
+		)
+		(pin "CN4_5"
+			(uuid "c2697f48-3686-41b5-bdd2-66e8887eae52")
+		)
+		(pin "CN4_3"
+			(uuid "fe4ed4df-27d1-4c31-ac44-907ef775de4e")
+		)
+		(pin "CN4_15"
+			(uuid "38b74bee-91ce-44c5-af76-d136235575cb")
+		)
+		(pin "CN4_12"
+			(uuid "6c5ee399-6e8b-477d-b0f2-4bc23c74f5bb")
+		)
+		(pin "CN4_8"
+			(uuid "abcbf6c7-b908-4e36-a6f0-be484e6aa06f")
+		)
+		(instances
+			(project "OsziFrontEnd"
+				(path "/1ef80f41-06dd-4c8e-92a0-a0266e9ecde0/fad6845e-a1ac-483b-9b0a-3993df256835"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
