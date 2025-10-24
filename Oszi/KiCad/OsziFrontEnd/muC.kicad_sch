@@ -877,7 +877,43 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Spannungsregler kann bis zu 300mA\n"
+	(text "Display reset\n"
+		(exclude_from_sim no)
+		(at 249.682 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "07e4b96e-00fa-47eb-a091-00673c7b354d")
+	)
+	(text "DC-Pin"
+		(exclude_from_sim no)
+		(at 248.158 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "45e73c4e-41b4-4c7e-8ab4-153f91dd76eb")
+	)
+	(text "W5500 reset\n\nfor reset 10k pull up\n"
+		(exclude_from_sim no)
+		(at 249.936 75.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "731d3a66-bf12-41a0-a674-140ba070a88d")
+	)
+	(text "Spannungsregler kann bis zu 500mA\n"
 		(exclude_from_sim no)
 		(at 255.778 120.396 0)
 		(effects
@@ -938,12 +974,12 @@
 		(uuid "57692193-0a74-4479-acf8-3a18686627a7")
 	)
 	(no_connect
-		(at 212.09 147.32)
-		(uuid "5a0a8cec-3677-431e-85c1-b8398fcd1b14")
-	)
-	(no_connect
 		(at 212.09 63.5)
 		(uuid "5d259941-c2ce-4fb7-ac64-dc7577d8f555")
+	)
+	(no_connect
+		(at 242.57 124.46)
+		(uuid "68aa9034-1dbc-4dc0-a40d-89ad465df0bf")
 	)
 	(no_connect
 		(at 242.57 144.78)
@@ -952,6 +988,14 @@
 	(no_connect
 		(at 242.57 68.58)
 		(uuid "95c03a46-be08-422a-8835-e00ea76d018c")
+	)
+	(no_connect
+		(at 242.57 63.5)
+		(uuid "9e7a7a41-b546-4ef7-8b45-ab73b615fb55")
+	)
+	(no_connect
+		(at 242.57 60.96)
+		(uuid "a39afe48-d2b9-4877-9d46-55b59d315252")
 	)
 	(no_connect
 		(at 212.09 60.96)
@@ -982,10 +1026,6 @@
 		(uuid "ed13e9f6-e753-4b58-8f87-75e5fe813940")
 	)
 	(no_connect
-		(at 212.09 149.86)
-		(uuid "f1664508-6fd5-42a2-a81c-236e8513cd08")
-	)
-	(no_connect
 		(at 242.57 149.86)
 		(uuid "f3ca63df-9c4d-40b9-812d-e516461af0a8")
 	)
@@ -996,16 +1036,6 @@
 	(no_connect
 		(at 212.09 78.74)
 		(uuid "fee6b358-1f67-47fc-9d10-c0e32d2e8e33")
-	)
-	(wire
-		(pts
-			(xy 242.57 60.96) (xy 247.65 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a7b1380-c080-49ed-9e1e-28644b0039bf")
 	)
 	(wire
 		(pts
@@ -1049,13 +1079,23 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 63.5) (xy 247.65 63.5)
+			(xy 208.28 149.86) (xy 212.09 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "989a92fd-87fb-41cd-9b2f-6d3c18e48e1f")
+		(uuid "ac5a255d-dce6-4be7-b68e-cd2eb345de07")
+	)
+	(wire
+		(pts
+			(xy 208.28 147.32) (xy 212.09 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8adfd5-b5c4-4f6c-a897-a967d6d20f6c")
 	)
 	(wire
 		(pts
@@ -1069,7 +1109,7 @@
 	)
 	(hierarchical_label "ADC_CH2_36V"
 		(shape input)
-		(at 208.28 142.24 180)
+		(at 208.28 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1079,19 +1119,6 @@
 			(justify right)
 		)
 		(uuid "02ccbf2c-4cea-4545-bd47-637ea15be079")
-	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 242.57 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "26cc169a-c1ba-4a55-ba7a-d5cfdc7f6558")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -1108,7 +1135,7 @@
 	)
 	(hierarchical_label "ADC_CH2_10V"
 		(shape input)
-		(at 208.28 144.78 180)
+		(at 208.28 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1121,27 +1148,27 @@
 	)
 	(hierarchical_label "ADC_CH1_10V"
 		(shape input)
-		(at 247.65 63.5 0)
+		(at 208.28 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "98b5a364-cd35-4e95-8ee0-f8e2c0573f59")
 	)
 	(hierarchical_label "ADC_CH1_1V"
 		(shape input)
-		(at 247.65 60.96 0)
+		(at 208.28 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c1aa642c-0317-4b5d-9c99-a2b87b8501d9")
 	)
@@ -1171,7 +1198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "L432KC:MODULE_NUCLEO-L432KC"
+		(property "Footprint" "My_Connectors:NUCLEO-L432KC_Module"
 			(at 227.33 139.7 0)
 			(effects
 				(font
@@ -1576,7 +1603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "L432KC:MODULE_NUCLEO-L432KC"
+		(property "Footprint" "My_Connectors:NUCLEO-L432KC_Module"
 			(at 227.33 68.58 0)
 			(effects
 				(font
