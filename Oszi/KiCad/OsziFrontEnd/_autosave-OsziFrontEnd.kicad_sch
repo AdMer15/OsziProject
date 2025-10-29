@@ -1,0 +1,779 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1ef80f41-06dd-4c8e-92a0-a0266e9ecde0")
+	(paper "A3")
+	(lib_symbols)
+	(text "Eingangspannung\n"
+		(exclude_from_sim no)
+		(at 65.532 136.398 0)
+		(effects
+			(font
+				(size 3.8 3.8)
+				(thickness 0.475)
+			)
+		)
+		(uuid "1de057ed-8444-45db-865d-6213cf84a246")
+	)
+	(text "muC"
+		(exclude_from_sim no)
+		(at 295.656 130.81 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "2f6c89cd-0a0e-49b3-86bb-de0e02f24966")
+	)
+	(text "Analoges Front End\n"
+		(exclude_from_sim no)
+		(at 182.88 130.556 0)
+		(effects
+			(font
+				(size 3.7 3.7)
+				(thickness 0.4625)
+			)
+		)
+		(uuid "73858937-3bff-4c06-a0fb-58729bbd34e8")
+	)
+	(text "Display"
+		(exclude_from_sim no)
+		(at 293.878 203.962 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "8e4a5df5-6702-4455-9fc5-e0e56f846eb6")
+	)
+	(text "Ethernet"
+		(exclude_from_sim no)
+		(at 302.26 53.848 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.4763)
+			)
+		)
+		(uuid "b9bbb448-0d3b-4cde-9c88-47b8e3e3c96e")
+	)
+	(junction
+		(at 254 132.588)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f51c322-829a-413e-b73f-14b2a84b83ac")
+	)
+	(wire
+		(pts
+			(xy 254 132.588) (xy 254 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1685ba18-c626-46fe-8c36-48a9f1614439")
+	)
+	(wire
+		(pts
+			(xy 302.26 161.798) (xy 302.26 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ce35e3-94f4-4be6-b352-8e5ffec6f1ab")
+	)
+	(wire
+		(pts
+			(xy 254 132.588) (xy 264.668 132.588)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b942b6-68a6-41a7-99c5-695b24c1790a")
+	)
+	(wire
+		(pts
+			(xy 289.56 161.798) (xy 289.56 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab53302-8afb-4d5b-b262-7a487b923494")
+	)
+	(wire
+		(pts
+			(xy 287.02 182.88) (xy 287.02 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d370df-2dd2-48ce-b815-10987c46cd66")
+	)
+	(wire
+		(pts
+			(xy 292.1 161.798) (xy 292.1 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a1d814-8bc0-4966-a396-5f347f109c8f")
+	)
+	(wire
+		(pts
+			(xy 294.64 161.798) (xy 294.64 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c98c3c7-d2f9-4c92-beb3-af8669fcc375")
+	)
+	(wire
+		(pts
+			(xy 244.348 128.778) (xy 264.668 128.778)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed3bb33-072f-414b-b3fc-200960209999")
+	)
+	(wire
+		(pts
+			(xy 244.348 117.348) (xy 264.668 117.348)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a59ea141-181e-469b-96df-25bca547b46f")
+	)
+	(wire
+		(pts
+			(xy 287.02 180.34) (xy 285.75 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ecba52-9394-462d-b67c-c18d026f105e")
+	)
+	(wire
+		(pts
+			(xy 297.18 161.798) (xy 297.18 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd7b6ed7-bc9b-4fed-b244-2ab99a1ded5c")
+	)
+	(wire
+		(pts
+			(xy 244.348 121.158) (xy 264.668 121.158)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ea842b-13c0-470a-8b44-94a790b1a8ba")
+	)
+	(wire
+		(pts
+			(xy 244.348 124.968) (xy 264.668 124.968)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8dc245f-c2c6-4cd7-9d62-c6832ce4f4ca")
+	)
+	(wire
+		(pts
+			(xy 93.726 147.32) (xy 100.33 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc8a7a0c-55a3-4b42-a6ea-2c89f592f96e")
+	)
+	(wire
+		(pts
+			(xy 244.348 132.588) (xy 254 132.588)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59baee3-db0b-463f-9cb3-51047cf06c9b")
+	)
+	(wire
+		(pts
+			(xy 299.72 161.798) (xy 299.72 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c209b8-324b-4fc3-bc31-cc4f36db16c0")
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 285.75 180.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1d3dc77f-3993-4329-87b0-5c2d6d86075a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 285.75 173.3712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 254 134.62 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "f4aa55b7-55d1-4dc4-b9a6-48cd9cf81dc2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254 141.5888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 100.33 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "fe621392-be65-4b7a-9361-5e1fe928b599")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.2988 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(sheet
+		(at 256.54 182.88)
+		(size 76.2 40.386)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "02cae442-86c4-47e9-afc5-30f3b9437140")
+		(property "Sheetname" "Display"
+			(at 256.54 182.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 256.54 223.8506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 287.02 182.88 90)
+			(uuid "d5a6af54-b42a-4f7d-99a4-9cf8bca0259e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DCS" input
+			(at 289.56 182.88 90)
+			(uuid "a6f5c7a1-a573-4098-a4f4-46b6e8e30a9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DD{slash}C" input
+			(at 292.1 182.88 90)
+			(uuid "2cef51aa-7203-4dcc-9819-6305a068b5cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DMISO" input
+			(at 294.64 182.88 90)
+			(uuid "d3d0299c-6e7e-4e00-8cfe-d4f5a003b3db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DMOSI" input
+			(at 297.18 182.88 90)
+			(uuid "ab094c71-1bf6-4243-9036-8a458b8d3411")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRs" input
+			(at 299.72 182.88 90)
+			(uuid "23c54b93-5e33-475a-98bf-4dae4c47c4f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSCK" input
+			(at 302.26 182.88 90)
+			(uuid "3a2267ea-d8d8-4d83-984e-c62800cd4c50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "OsziFrontEnd"
+				(path "/1ef80f41-06dd-4c8e-92a0-a0266e9ecde0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127.508 108.458)
+		(size 116.84 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "10196dc1-21da-4c9c-8568-82a641db10ac")
+		(property "Sheetname" "AnalogesFrontEnd"
+			(at 127.508 107.7464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AnalogesFrontEnd.kicad_sch"
+			(at 127.508 161.1126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 244.348 132.588 0)
+			(uuid "ce7d6695-01d4-4cd3-bbca-595977600f6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_CH1_1V" input
+			(at 244.348 117.348 0)
+			(uuid "44cfb51f-9c2b-4098-806d-c01b825337fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_CH1_10V" input
+			(at 244.348 121.158 0)
+			(uuid "2e38d8f4-53f1-44ae-ada8-e8c6098aaab8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_CH2_10V" input
+			(at 244.348 124.968 0)
+			(uuid "4bc57e24-125f-4296-b2cd-5333df12b472")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_CH2_36V" input
+			(at 244.348 128.778 0)
+			(uuid "f5f42d8e-2f44-4c9a-bb8e-32fc38233af2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CoaxCH1" input
+			(at 244.348 151.638 0)
+			(uuid "042cb0f4-8fc8-464f-9433-38676aa2b80e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CoaxCH2" input
+			(at 244.348 155.448 0)
+			(uuid "4406409e-a2d4-4c54-a3e9-ff2945b4139e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "OsziFrontEnd"
+				(path "/1ef80f41-06dd-4c8e-92a0-a0266e9ecde0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.416 112.522)
+		(size 67.31 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad939f37-9bc3-46b0-a538-61d11b35f94c")
+		(property "Sheetname" "powerSupplie"
+			(at 26.416 111.8104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powerSupplie.kicad_sch"
+			(at 26.416 161.3666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" output
+			(at 93.726 147.32 0)
+			(uuid "414fa41a-8b69-4ce4-8cc6-55fdbdbe3cd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "OsziFrontEnd"
+				(path "/1ef80f41-06dd-4c8e-92a0-a0266e9ecde0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 262.89 33.02)
+		(size 78.232 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d44bfb04-4365-45f7-a8f2-c84730ee6b8e")
+		(property "Sheetname" "Ethernet"
+			(at 262.89 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 262.89 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OsziFrontEnd"
+				(path "/1ef80f41-06dd-4c8e-92a0-a0266e9ecde0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 264.668 102.108)
+		(size 60.96 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fad6845e-a1ac-483b-9b0a-3993df256835")
+		(property "Sheetname" "muC"
+			(at 264.668 101.3964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "muC.kicad_sch"
+			(at 264.668 162.3826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 264.668 132.588 180)
+			(uuid "258f513d-1ea7-44df-a6d4-27fbca3ad873")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_CH1_1V" input
+			(at 264.668 117.348 180)
+			(uuid "16530d36-8b3e-4884-85ad-0516c1e99d81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_CH2_10V" input
+			(at 264.668 124.968 180)
+			(uuid "b5dfd024-70de-4a0d-9b54-d5808a677265")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_CH2_36V" input
+			(at 264.668 128.778 180)
+			(uuid "4c54898b-8d2e-463c-8212-b887873069ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_CH1_10V" input
+			(at 264.668 121.158 180)
+			(uuid "2bf54d4a-6ea6-474f-a2d8-d47def44096e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DCS" input
+			(at 289.56 161.798 270)
+			(uuid "00e3dfc2-d05e-4333-b6f1-e4dc8cc26426")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DD{slash}C" input
+			(at 292.1 161.798 270)
+			(uuid "fd8018e1-1a59-42ef-87ed-91f2efb561e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DMISO" input
+			(at 294.64 161.798 270)
+			(uuid "f4dfcb5e-37da-41b6-b605-e6812ceb8590")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DMOSI" input
+			(at 297.18 161.798 270)
+			(uuid "ce47aa73-07c3-447e-8807-3c47656dcd01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRs" input
+			(at 299.72 161.798 270)
+			(uuid "7c39b9fb-a0a5-43c6-8d68-3231b87118db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSCK" input
+			(at 302.26 161.798 270)
+			(uuid "fca60333-3779-4736-902c-fc306f698b31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "OsziFrontEnd"
+				(path "/1ef80f41-06dd-4c8e-92a0-a0266e9ecde0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -877,45 +877,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Display reset\n"
-		(exclude_from_sim no)
-		(at 132.842 73.914 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "07e4b96e-00fa-47eb-a091-00673c7b354d")
-	)
-	(text "DC-Pin"
-		(exclude_from_sim no)
-		(at 131.318 66.294 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "45e73c4e-41b4-4c7e-8ab4-153f91dd76eb")
-	)
-	(text "W5500 reset\n\nfor reset 10k pull up\n"
-		(exclude_from_sim no)
-		(at 133.096 81.026 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "731d3a66-bf12-41a0-a674-140ba070a88d")
-	)
 	(text "Spannungsregler kann bis zu 500mA\n"
 		(exclude_from_sim no)
-		(at 138.938 125.476 0)
+		(at 139.954 104.902 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -937,7 +901,7 @@
 	)
 	(text "gnd = AGnd\n"
 		(exclude_from_sim no)
-		(at 148.59 166.37 0)
+		(at 149.606 145.796 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -946,11 +910,11 @@
 		(uuid "c69f5d46-3a19-4710-a7e6-5ace471c87cc")
 	)
 	(no_connect
-		(at 95.25 142.24)
+		(at 96.266 121.666)
 		(uuid "042b9c0c-13c5-4410-b207-fc20a74203bd")
 	)
 	(no_connect
-		(at 95.25 137.16)
+		(at 96.266 116.586)
 		(uuid "0bff543a-adb5-492e-8693-96f08628973c")
 	)
 	(no_connect
@@ -978,40 +942,24 @@
 		(uuid "5d259941-c2ce-4fb7-ac64-dc7577d8f555")
 	)
 	(no_connect
-		(at 125.73 129.54)
+		(at 126.746 108.966)
 		(uuid "68aa9034-1dbc-4dc0-a40d-89ad465df0bf")
 	)
 	(no_connect
-		(at 91.44 152.4)
+		(at 92.456 131.826)
 		(uuid "695178e8-c0aa-4fb9-bbb3-f661e3706a94")
-	)
-	(no_connect
-		(at 125.73 149.86)
-		(uuid "6b1a32b6-ea24-4bb2-a899-f93d87914a4c")
 	)
 	(no_connect
 		(at 125.73 73.66)
 		(uuid "95c03a46-be08-422a-8835-e00ea76d018c")
 	)
 	(no_connect
-		(at 125.73 68.58)
-		(uuid "9e7a7a41-b546-4ef7-8b45-ab73b615fb55")
-	)
-	(no_connect
-		(at 125.73 66.04)
-		(uuid "a39afe48-d2b9-4877-9d46-55b59d315252")
-	)
-	(no_connect
 		(at 95.25 66.04)
 		(uuid "cc008a4a-ff3f-4fa1-83ef-a0e4103498d8")
 	)
 	(no_connect
-		(at 125.73 142.24)
+		(at 126.746 121.666)
 		(uuid "d06cea69-a6a2-4e05-b692-79625d260f43")
-	)
-	(no_connect
-		(at 125.73 71.12)
-		(uuid "e45d180c-a51e-4f2b-bac8-216eaadba925")
 	)
 	(no_connect
 		(at 95.25 81.28)
@@ -1022,16 +970,8 @@
 		(uuid "ec5faae8-4a34-4bcc-9453-7dd705312e67")
 	)
 	(no_connect
-		(at 125.73 137.16)
+		(at 126.746 116.586)
 		(uuid "ed13e9f6-e753-4b58-8f87-75e5fe813940")
-	)
-	(no_connect
-		(at 125.73 154.94)
-		(uuid "f3ca63df-9c4d-40b9-812d-e516461af0a8")
-	)
-	(no_connect
-		(at 125.73 152.4)
-		(uuid "fb655aa0-0f24-4da1-bbc2-2a0003713161")
 	)
 	(no_connect
 		(at 95.25 83.82)
@@ -1039,7 +979,27 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 132.08) (xy 128.27 132.08)
+			(xy 125.73 66.04) (xy 128.27 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01117477-f7a4-431a-b597-f419f5455720")
+	)
+	(wire
+		(pts
+			(xy 126.746 134.366) (xy 129.286 134.366)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04cc29f7-16ea-4571-96b8-dcca54784604")
+	)
+	(wire
+		(pts
+			(xy 126.746 111.506) (xy 129.286 111.506)
 		)
 		(stroke
 			(width 0)
@@ -1049,7 +1009,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 160.02) (xy 125.73 162.56)
+			(xy 125.73 68.58) (xy 128.27 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e96ac3-4c02-4469-8eef-71cd20e73cd5")
+	)
+	(wire
+		(pts
+			(xy 126.746 139.446) (xy 126.746 141.986)
 		)
 		(stroke
 			(width 0)
@@ -1059,7 +1029,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 149.86) (xy 95.25 149.86)
+			(xy 92.456 129.286) (xy 96.266 129.286)
 		)
 		(stroke
 			(width 0)
@@ -1069,7 +1039,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 147.32) (xy 95.25 147.32)
+			(xy 126.746 129.286) (xy 129.286 129.286)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6f0ff8-4454-4ff1-bdbe-aaeced7cf235")
+	)
+	(wire
+		(pts
+			(xy 92.456 126.746) (xy 96.266 126.746)
 		)
 		(stroke
 			(width 0)
@@ -1079,7 +1059,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 154.94) (xy 95.25 154.94)
+			(xy 125.73 71.12) (xy 128.27 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa02a985-b665-4cf4-b1a1-cfb34b319099")
+	)
+	(wire
+		(pts
+			(xy 92.456 134.366) (xy 96.266 134.366)
 		)
 		(stroke
 			(width 0)
@@ -1089,7 +1079,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 152.4) (xy 95.25 152.4)
+			(xy 92.456 131.826) (xy 96.266 131.826)
 		)
 		(stroke
 			(width 0)
@@ -1099,7 +1089,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 147.32) (xy 128.27 147.32)
+			(xy 126.746 131.826) (xy 129.286 131.826)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb86a03-661a-431a-a006-34828d1176e2")
+	)
+	(wire
+		(pts
+			(xy 126.746 126.746) (xy 129.286 126.746)
 		)
 		(stroke
 			(width 0)
@@ -1119,7 +1119,7 @@
 	)
 	(hierarchical_label "ADC_CH2_36V"
 		(shape input)
-		(at 91.44 154.94 180)
+		(at 92.456 134.366 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1130,9 +1130,31 @@
 		)
 		(uuid "02ccbf2c-4cea-4545-bd47-637ea15be079")
 	)
+	(hierarchical_label "DMISO"
+		(shape input)
+		(at 129.286 131.826 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1eb0b794-905b-460e-b040-f0b9bbaf4134")
+	)
+	(hierarchical_label "DSCK"
+		(shape input)
+		(at 129.286 129.286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3bd6cf90-e822-4988-a221-7372b87c553a")
+	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 128.27 132.08 0)
+		(at 129.286 111.506 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1143,9 +1165,20 @@
 		)
 		(uuid "62ca6448-58ca-4b41-9174-c017e3dbef7b")
 	)
+	(hierarchical_label "DCS"
+		(shape input)
+		(at 128.27 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "760f2cbe-4c08-4b45-ba2d-90787919ee93")
+	)
 	(hierarchical_label "ADC_CH2_10V"
 		(shape input)
-		(at 128.27 147.32 0)
+		(at 129.286 126.746 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1156,9 +1189,20 @@
 		)
 		(uuid "88059e8a-ba5e-4d1b-afe0-87e9fa580ddb")
 	)
+	(hierarchical_label "DRs"
+		(shape input)
+		(at 128.27 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "884bf922-e274-47b3-a244-06c61516e027")
+	)
 	(hierarchical_label "ADC_CH1_10V"
 		(shape input)
-		(at 91.44 149.86 180)
+		(at 92.456 129.286 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1171,7 +1215,7 @@
 	)
 	(hierarchical_label "ADC_CH1_1V"
 		(shape input)
-		(at 91.44 147.32 180)
+		(at 92.456 126.746 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1182,9 +1226,31 @@
 		)
 		(uuid "c1aa642c-0317-4b5d-9c99-a2b87b8501d9")
 	)
+	(hierarchical_label "DD{slash}C"
+		(shape input)
+		(at 128.27 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c43d04f3-0888-4c9c-a6a6-55dfb6d4747e")
+	)
+	(hierarchical_label "DMOSI"
+		(shape input)
+		(at 129.286 134.366 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf1c0326-0b7d-4a6f-883c-bd5038a35d99")
+	)
 	(symbol
 		(lib_id "NUCLEO-L432KC:NUCLEO-L432KC")
-		(at 110.49 144.78 0)
+		(at 111.506 124.206 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1193,7 +1259,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8c1265f-11ed-4983-8f59-14a8bcab3bef")
 		(property "Reference" "U3"
-			(at 110.49 119.38 0)
+			(at 111.506 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,7 +1267,7 @@
 			)
 		)
 		(property "Value" "NUCLEO-L432KC"
-			(at 110.49 121.92 0)
+			(at 111.506 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1209,7 +1275,7 @@
 			)
 		)
 		(property "Footprint" "My_Connectors:NUCLEO-L432KC_Module"
-			(at 110.49 144.78 0)
+			(at 111.506 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +1285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 144.78 0)
+			(at 111.506 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,7 +1294,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 144.78 0)
+			(at 111.506 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,7 +1303,7 @@
 			)
 		)
 		(property "MF" "STMicroelectronics"
-			(at 110.49 144.78 0)
+			(at 111.506 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1247,7 +1313,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "N/A"
-			(at 110.49 144.78 0)
+			(at 111.506 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +1323,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 110.49 144.78 0)
+			(at 111.506 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1267,7 +1333,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 110.49 144.78 0)
+			(at 111.506 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1277,7 +1343,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/NUCLEO-L432KC/STMicroelectronics/view-part/?ref=eda"
-			(at 110.49 144.78 0)
+			(at 111.506 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1287,7 +1353,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 110.49 144.78 0)
+			(at 111.506 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1297,7 +1363,7 @@
 			)
 		)
 		(property "PARTREV" "N/A"
-			(at 110.49 144.78 0)
+			(at 111.506 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1307,7 +1373,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NUCLEO-L432KC/STMicroelectronics/view-part/?ref=snap"
-			(at 110.49 144.78 0)
+			(at 111.506 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +1383,7 @@
 			)
 		)
 		(property "MP" "NUCLEO-L432KC"
-			(at 110.49 144.78 0)
+			(at 111.506 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,7 +1393,7 @@
 			)
 		)
 		(property "Description_1" "STM32L432KC, mbed-Enabled Development Nucleo-32 STM32L4 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
-			(at 110.49 144.78 0)
+			(at 111.506 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +1403,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 110.49 144.78 0)
+			(at 111.506 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,7 +1413,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ST Microelectronics"
-			(at 110.49 144.78 0)
+			(at 111.506 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,7 +1523,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 125.73 162.56 0)
+		(at 126.746 141.986 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1466,7 +1532,7 @@
 		(fields_autoplaced yes)
 		(uuid "e725636d-fa36-4e5a-a19b-5d75ffafa273")
 		(property "Reference" "#PWR014"
-			(at 125.73 168.91 0)
+			(at 126.746 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,7 +1541,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 125.73 166.37 0)
+			(at 126.746 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,7 +1549,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 162.56 0)
+			(at 126.746 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,7 +1558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 162.56 0)
+			(at 126.746 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,7 +1567,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 125.73 162.56 0)
+			(at 126.746 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
