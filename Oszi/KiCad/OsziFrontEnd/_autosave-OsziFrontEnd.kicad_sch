@@ -722,26 +722,6 @@
 				(justify left)
 			)
 		)
-		(pin "DMISO" input
-			(at 294.64 161.798 270)
-			(uuid "f4dfcb5e-37da-41b6-b605-e6812ceb8590")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DMOSI" input
-			(at 297.18 161.798 270)
-			(uuid "ce47aa73-07c3-447e-8807-3c47656dcd01")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "DRs" input
 			(at 299.72 161.798 270)
 			(uuid "7c39b9fb-a0a5-43c6-8d68-3231b87118db")
@@ -752,9 +732,59 @@
 				(justify left)
 			)
 		)
-		(pin "DSCK" input
+		(pin "ECS" input
+			(at 296.545 102.108 90)
+			(uuid "578e6e8e-9087-40c4-86d8-728f12328646")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EINT" input
+			(at 299.72 102.108 90)
+			(uuid "4039343f-f3a7-4812-b001-d6c4408917eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ERs" input
+			(at 302.895 102.108 90)
+			(uuid "1713260a-5215-4954-817a-533e677b594f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" input
+			(at 294.64 161.798 270)
+			(uuid "d7c8dbbc-5878-418e-88b3-3ed4ae8b95d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 297.18 161.798 270)
+			(uuid "602ef3ae-85ce-4bb5-a310-bde51d35c9ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
 			(at 302.26 161.798 270)
-			(uuid "fca60333-3779-4736-902c-fc306f698b31")
+			(uuid "e406ea40-e858-482f-a9f5-3002b2f7a623")
 			(effects
 				(font
 					(size 1.27 1.27)

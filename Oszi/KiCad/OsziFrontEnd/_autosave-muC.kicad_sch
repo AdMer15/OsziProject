@@ -5,6 +5,170 @@
 	(uuid "5e71aeee-d882-4565-9fe7-24a51d8e8ba0")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "NUCLEO-L432KC:NUCLEO-L432KC"
 			(pin_names
 				(offset 1.016)
@@ -764,6 +928,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDD"
 			(power)
 			(pin_numbers
@@ -877,6 +1191,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "PB7, 6, PA8\n"
+		(exclude_from_sim no)
+		(at 144.145 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "86823ea4-3083-4037-b5be-10e0d4f46163")
+	)
 	(text "Spannungsregler kann bis zu 500mA\n"
 		(exclude_from_sim no)
 		(at 139.954 104.902 0)
@@ -922,24 +1246,8 @@
 		(uuid "22414aed-1ef4-4fec-82c5-761d5767caae")
 	)
 	(no_connect
-		(at 125.73 76.2)
-		(uuid "38347bfb-548b-4538-be09-856571570a01")
-	)
-	(no_connect
-		(at 95.25 71.12)
-		(uuid "40569eca-9a6e-49bc-8b08-d7da4b7e7add")
-	)
-	(no_connect
 		(at 95.25 76.2)
 		(uuid "4a025aa8-eb00-436e-833c-1c54cbd9c294")
-	)
-	(no_connect
-		(at 125.73 78.74)
-		(uuid "57692193-0a74-4479-acf8-3a18686627a7")
-	)
-	(no_connect
-		(at 95.25 68.58)
-		(uuid "5d259941-c2ce-4fb7-ac64-dc7577d8f555")
 	)
 	(no_connect
 		(at 126.746 108.966)
@@ -950,24 +1258,12 @@
 		(uuid "695178e8-c0aa-4fb9-bbb3-f661e3706a94")
 	)
 	(no_connect
-		(at 125.73 73.66)
-		(uuid "95c03a46-be08-422a-8835-e00ea76d018c")
-	)
-	(no_connect
-		(at 95.25 66.04)
-		(uuid "cc008a4a-ff3f-4fa1-83ef-a0e4103498d8")
-	)
-	(no_connect
 		(at 126.746 121.666)
 		(uuid "d06cea69-a6a2-4e05-b692-79625d260f43")
 	)
 	(no_connect
 		(at 95.25 81.28)
 		(uuid "eb92966c-fbd6-4f48-9478-ad81904bb59e")
-	)
-	(no_connect
-		(at 95.25 73.66)
-		(uuid "ec5faae8-4a34-4bcc-9453-7dd705312e67")
 	)
 	(no_connect
 		(at 126.746 116.586)
@@ -999,6 +1295,26 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 71.12) (xy 78.105 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10112965-8adc-43af-9013-617b55c6287c")
+	)
+	(wire
+		(pts
+			(xy 71.12 73.66) (xy 78.105 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d618d9-35b3-4286-a5f5-56a3cd538f31")
+	)
+	(wire
+		(pts
 			(xy 126.746 111.506) (xy 129.286 111.506)
 		)
 		(stroke
@@ -1016,6 +1332,36 @@
 			(type default)
 		)
 		(uuid "54e96ac3-4c02-4469-8eef-71cd20e73cd5")
+	)
+	(wire
+		(pts
+			(xy 125.73 73.66) (xy 135.89 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2802c6-6533-4f05-bf9e-46463ac634b8")
+	)
+	(wire
+		(pts
+			(xy 92.71 66.04) (xy 95.25 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628521c3-f70b-49b8-ac56-0ce68645f9ef")
+	)
+	(wire
+		(pts
+			(xy 88.265 71.12) (xy 95.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d6ed638-c901-40a4-a0d8-0dbf4c1fad57")
 	)
 	(wire
 		(pts
@@ -1039,6 +1385,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 73.66) (xy 149.86 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a23469c-6183-41d0-82bf-82a3d6451c51")
+	)
+	(wire
+		(pts
 			(xy 126.746 129.286) (xy 129.286 129.286)
 		)
 		(stroke
@@ -1056,6 +1412,16 @@
 			(type default)
 		)
 		(uuid "91e7fffc-fded-4c70-9109-4d4ac4866b53")
+	)
+	(wire
+		(pts
+			(xy 88.265 73.66) (xy 95.25 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e275f19-c211-48ee-bdb0-36f70c06a7ad")
 	)
 	(wire
 		(pts
@@ -1099,6 +1465,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 76.2) (xy 128.905 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd7975ee-35f0-4f9c-afc0-643b07bdee73")
+	)
+	(wire
+		(pts
 			(xy 126.746 126.746) (xy 129.286 126.746)
 		)
 		(stroke
@@ -1106,6 +1482,16 @@
 			(type default)
 		)
 		(uuid "e6625c8f-dce2-4f3b-b866-8344e7e5edd5")
+	)
+	(wire
+		(pts
+			(xy 125.73 78.74) (xy 128.905 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9afed92-f3f2-4415-922f-e758fe04bf7a")
 	)
 	(wire
 		(pts
@@ -1130,7 +1516,20 @@
 		)
 		(uuid "02ccbf2c-4cea-4545-bd47-637ea15be079")
 	)
-	(hierarchical_label "DMISO"
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 149.86 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "09f25d14-1173-4e43-94fa-ecdce1abaca4")
+	)
+	(hierarchical_label "MISO"
 		(shape input)
 		(at 129.286 131.826 0)
 		(effects
@@ -1141,7 +1540,20 @@
 		)
 		(uuid "1eb0b794-905b-460e-b040-f0b9bbaf4134")
 	)
-	(hierarchical_label "DSCK"
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 71.12 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "2aa059f3-5eef-4c50-b46e-a17b0fb8e539")
+	)
+	(hierarchical_label "SCK"
 		(shape input)
 		(at 129.286 129.286 0)
 		(effects
@@ -1176,6 +1588,17 @@
 		)
 		(uuid "760f2cbe-4c08-4b45-ba2d-90787919ee93")
 	)
+	(hierarchical_label "ERs"
+		(shape input)
+		(at 128.905 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "797839c9-d452-47a0-b759-77e4e827d861")
+	)
 	(hierarchical_label "ADC_CH2_10V"
 		(shape input)
 		(at 129.286 126.746 0)
@@ -1199,6 +1622,17 @@
 			(justify left)
 		)
 		(uuid "884bf922-e274-47b3-a244-06c61516e027")
+	)
+	(hierarchical_label "EINT"
+		(shape input)
+		(at 92.71 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f802fce-201b-4327-bbe5-56cc0cca9767")
 	)
 	(hierarchical_label "ADC_CH1_10V"
 		(shape input)
@@ -1237,7 +1671,7 @@
 		)
 		(uuid "c43d04f3-0888-4c9c-a6a6-55dfb6d4747e")
 	)
-	(hierarchical_label "DMOSI"
+	(hierarchical_label "MOSI"
 		(shape input)
 		(at 129.286 134.366 0)
 		(effects
@@ -1247,6 +1681,307 @@
 			(justify left)
 		)
 		(uuid "cf1c0326-0b7d-4a6f-883c-bd5038a35d99")
+	)
+	(hierarchical_label "ECS"
+		(shape input)
+		(at 128.905 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0f15af3-b920-4714-9cde-043a794d7fcd")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 71.12 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "fd839d1b-76a0-472d-bdc0-f48d9f0d74dd")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 83.185 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20cec329-e57a-43e7-a0fe-a830dcebd5f9")
+		(property "Reference" "SW2"
+			(at 75.565 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 83.185 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
+			(at 83.185 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.185 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 83.185 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8711ba96-630e-43e1-b536-0114217ce990")
+		)
+		(pin "1"
+			(uuid "44981c60-ca3f-457f-9102-876c4640331d")
+		)
+		(instances
+			(project "OsziFrontEnd"
+				(path "/1ef80f41-06dd-4c8e-92a0-a0266e9ecde0/fad6845e-a1ac-483b-9b0a-3993df256835"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 140.97 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "944c72e6-7f21-4a4f-a86a-655f64ad5290")
+		(property "Reference" "SW3"
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 141.605 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
+			(at 140.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 140.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b032d824-7d11-4cf8-bcbc-8cca81c75c1a")
+		)
+		(pin "1"
+			(uuid "76639ae6-d83e-4be2-978f-8a890050bebd")
+		)
+		(instances
+			(project "OsziFrontEnd"
+				(path "/1ef80f41-06dd-4c8e-92a0-a0266e9ecde0/fad6845e-a1ac-483b-9b0a-3993df256835"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 75.565 61.595 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3277051-42d5-422d-9ec5-135f1077bd42")
+		(property "Reference" "RV1"
+			(at 77.47 60.3249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 77.47 62.8649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 75.565 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 75.565 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 75.565 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b0b2f217-e348-4320-ab54-97c8b9d9ac11")
+		)
+		(pin "2"
+			(uuid "2a34466a-5139-47c9-88e3-ce6e8eabf0fe")
+		)
+		(pin "1"
+			(uuid "8c37a809-d459-4761-b047-9040b0864dbe")
+		)
+		(instances
+			(project ""
+				(path "/1ef80f41-06dd-4c8e-92a0-a0266e9ecde0/fad6845e-a1ac-483b-9b0a-3993df256835"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 83.185 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7630104-9bb1-4850-8712-5f9381359b11")
+		(property "Reference" "SW1"
+			(at 75.565 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 83.82 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
+			(at 83.185 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.185 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 83.185 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50ced90f-b094-468e-b62f-68e44fcd5174")
+		)
+		(pin "1"
+			(uuid "6c27b4ea-004a-402d-be76-14f67c268550")
+		)
+		(instances
+			(project ""
+				(path "/1ef80f41-06dd-4c8e-92a0-a0266e9ecde0/fad6845e-a1ac-483b-9b0a-3993df256835"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "NUCLEO-L432KC:NUCLEO-L432KC")
