@@ -2130,6 +2130,19 @@
 		)
 		(uuid "1e5797ca-7efe-4a0f-9f0d-9789891d03e8")
 	)
+	(hierarchical_label "Vin-1;1CH1"
+		(shape input)
+		(at 209.55 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "24a1fd4d-b5e3-474a-bdec-ae724bc08f0f")
+	)
 	(hierarchical_label "ADC_CH2_10V"
 		(shape input)
 		(at 308.61 228.6 0)
@@ -2362,7 +2375,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c80ec8d7-ca00-441b-b6f3-b2b91cb34d49")
+		(uuid "c88632c5-b523-4993-a608-a28e5671a559")
 	)
 	(hierarchical_label "Vin-10;10CH1"
 		(shape input)
@@ -2402,19 +2415,6 @@
 			(justify left)
 		)
 		(uuid "e455f47a-b392-4882-be7c-9e9b3580947a")
-	)
-	(hierarchical_label "Vin-10;10CH1"
-		(shape input)
-		(at 209.55 50.8 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "fbae7abb-749c-42bf-beb9-2641fdb8664b")
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6002-xP")

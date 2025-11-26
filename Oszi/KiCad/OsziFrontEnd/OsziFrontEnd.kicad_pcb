@@ -143,7 +143,7 @@
 		(property "Reference" "U6"
 			(at 0.59 -11.18 0)
 			(layer "F.SilkS")
-			(uuid "2f46d4ea-29f4-4c08-919c-cf829223f5b2")
+			(uuid "bec2b4d3-6509-4b6a-b761-de4dc815e10d")
 			(effects
 				(font
 					(size 1 1)
@@ -154,7 +154,7 @@
 		(property "Value" "CR2013-MI2120"
 			(at 4.66 31.47 0)
 			(layer "F.Fab")
-			(uuid "1e698214-2a45-4ba2-9053-9d56c0e172b3")
+			(uuid "0a57d8f6-67a8-4dd0-9a52-4e2891718813")
 			(effects
 				(font
 					(size 1 1)
@@ -167,7 +167,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "393af458-042c-4cf5-8917-f77238fb9042")
+			(uuid "fb6b6e41-5a67-4f65-bbe1-1ee511b44ae3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -180,7 +180,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "310d72c0-0c4a-4e09-ba86-cc9dc7cfe4fd")
+			(uuid "f0f783c4-fcd7-434f-825b-a204fa8541f9")
 			(effects
 				(font
 					(size 1.27 1.27)
