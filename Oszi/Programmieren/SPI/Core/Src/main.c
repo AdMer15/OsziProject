@@ -18,7 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-
+#include "ili9341.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -94,8 +94,27 @@ int main(void)
   MX_USART2_UART_Init();
   MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
-  uint8_t test = 42;
-  HAL_SPI_Transmit(&hspi1, &test, 1, HAL_MAX_DELAY);
+  ILI9341_Init();
+  ILI9341_FillScreen(ILI9341_BLACK);
+
+  /* Pixel-Test */
+  for (int i = 0; i < 100; i++) {
+      ILI9341_DrawPixel(i, i, ILI9341_RED);
+  }
+
+  /* Rechteck-Test */
+  ILI9341_FillRectangle(50, 50, 80, 80, ILI9341_BLUE);
+
+  /* Einfacher Bildschirm-Farbwechsel */
+  HAL_Delay(1000);
+  ILI9341_FillScreen(ILI9341_GREEN);
+  HAL_Delay(1000);
+  ILI9341_FillScreen(ILI9341_RED);
+  HAL_Delay(1000);
+  ILI9341_FillScreen(ILI9341_BLUE);
+
+//  uint8_t test = 42;
+//  HAL_SPI_Transmit(&hspi1, &test, 1, HAL_MAX_DELAY);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -103,10 +122,6 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  // HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, GPIO_PIN_RESET);
-	  // HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, GPIO_PIN_SET);
-	  HAL_Delay(100);
-
 
     /* USER CODE BEGIN 3 */
   }
@@ -265,14 +280,14 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, CS_Pin|DC_Pin|LD3_Pin|DRS_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin : LD3_Pin */
-  GPIO_InitStruct.Pin = LD3_Pin;
+  /*Configure GPIO pins : CS_Pin DC_Pin LD3_Pin DRS_Pin */
+  GPIO_InitStruct.Pin = CS_Pin|DC_Pin|LD3_Pin|DRS_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(LD3_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
