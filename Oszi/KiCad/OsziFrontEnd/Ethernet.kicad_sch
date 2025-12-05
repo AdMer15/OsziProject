@@ -973,16 +973,16 @@
 	)
 	(symbol
 		(lib_id "Interface_Ethernet:W5500")
-		(at 87.884 67.818 0)
+		(at 90.17 69.85 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dac3e071-257c-4ab3-b1a0-e41f601b6263")
 		(property "Reference" "U5"
-			(at 92.5673 34.29 0)
+			(at 94.8533 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,7 +991,7 @@
 			)
 		)
 		(property "Value" "W5500"
-			(at 92.5673 36.83 0)
+			(at 94.8533 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,7 +1000,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
-			(at 87.884 25.908 0)
+			(at 90.17 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1009,7 +1009,7 @@
 			)
 		)
 		(property "Datasheet" "http://wizwiki.net/wiki/lib/exe/fetch.php/products:w5500:w5500_ds_v109e.pdf"
-			(at 87.884 42.418 0)
+			(at 90.17 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1018,7 +1018,7 @@
 			)
 		)
 		(property "Description" "10/100Mb SPI Ethernet controller with TCP/IP stack, LQFP-48"
-			(at 87.884 67.818 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
