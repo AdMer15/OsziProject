@@ -68,7 +68,7 @@ extern SPI_HandleTypeDef ILI9341_SPI_PORT;
 //----------------------------------------------------------------------
 // Ausrichtung Pins unten = Normal
 // Normal 1, Upside down 4, Nach recht liegend 2, Nach links liegend 3
-#define ILI9341_Orientation			1
+#define ILI9341_Orientation			2
 
 // Normal
 #if ILI9341_Orientation == 1
