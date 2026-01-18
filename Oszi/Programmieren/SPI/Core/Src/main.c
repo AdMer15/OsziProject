@@ -18,7 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "ili9341.h"
+#include "app_scope.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -94,27 +94,9 @@ int main(void)
   MX_USART2_UART_Init();
   MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
-  ILI9341_Init();
-  ILI9341_FillScreen(ILI9341_BLACK);
+  AppScope_Init();
 
-  /* Pixel-Test */
-  for (int i = 0; i < 100; i++) {
-      ILI9341_DrawPixel(i, i, ILI9341_RED);
-  }
 
-  /* Rechteck-Test */
-  ILI9341_FillRectangle(50, 50, 80, 80, ILI9341_BLUE);
-
-  /* Einfacher Bildschirm-Farbwechsel */
-  HAL_Delay(1000);
-  ILI9341_FillScreen(ILI9341_GREEN);
-  HAL_Delay(1000);
-  ILI9341_FillScreen(ILI9341_RED);
-  HAL_Delay(1000);
-  ILI9341_FillScreen(ILI9341_BLUE);
-
-//  uint8_t test = 42;
-//  HAL_SPI_Transmit(&hspi1, &test, 1, HAL_MAX_DELAY);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -122,6 +104,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+	    AppScope_Loop();
 
     /* USER CODE BEGIN 3 */
   }

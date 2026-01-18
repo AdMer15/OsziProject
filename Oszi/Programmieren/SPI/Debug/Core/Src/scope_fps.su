@@ -1,0 +1,3 @@
+../Core/Src/scope_fps.c:15:6:ScopeFPS_Init	8	static
+../Core/Src/scope_fps.c:22:6:ScopeFPS_FrameTick	16	static
+../Core/Src/scope_fps.c:33:10:ScopeFPS_Get	4	static
