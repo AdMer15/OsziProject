@@ -1,9 +1,0 @@
-../Core/Inc/scope_layout.h:26:23:scope_grid_w	4	static
-../Core/Inc/scope_layout.h:27:23:scope_grid_h	4	static
-../Core/Src/scope_wave.c:25:16:map_y	24	static
-../Core/Src/scope_wave.c:35:6:ScopeWave_Init	24	static
-../Core/Src/scope_wave.c:54:6:ScopeWave_SetChannelCfg	24	static
-../Core/Src/scope_wave.c:60:6:ScopeWave_Reset	24	static
-../Core/Src/scope_wave.c:70:6:ScopeWave_PushSample	16	static
-../Core/Src/scope_wave.c:76:17:test_signal	24	static
-../Core/Src/scope_wave.c:82:6:ScopeWave_RenderStep	56	static

@@ -1,6 +1,0 @@
-../Core/Src/tft_port.c:15:16:font_from_size	3
-../Core/Src/tft_port.c:27:6:TFT_Init	1
-../Core/Src/tft_port.c:32:6:TFT_FillScreen	1
-../Core/Src/tft_port.c:37:6:TFT_FillRect	1
-../Core/Src/tft_port.c:46:6:TFT_DrawLine	7
-../Core/Src/tft_port.c:69:6:TFT_DrawString	1

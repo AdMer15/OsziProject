@@ -1,4 +1,0 @@
-../Core/Src/scope_overlay.c:14:13:clear_header	1
-../Core/Src/scope_overlay.c:15:13:clear_footer	1
-../Core/Src/scope_overlay.c:17:6:ScopeOverlay_DrawStatic	1
-../Core/Src/scope_overlay.c:25:6:ScopeOverlay_Update	2
