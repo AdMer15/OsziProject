@@ -60,8 +60,13 @@ all: main-build
 main-build: SPI.elf secondary-outputs
 
 # Tool invocations
+<<<<<<< HEAD
 SPI.elf SPI.map: $(OBJS) $(USER_OBJS) C:\Users\chris\Schule\Labor\4BHEL\OsziloskopBauen\Oszi\Programmieren\SPI\STM32L432KCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	arm-none-eabi-gcc -o "SPI.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\chris\Schule\Labor\4BHEL\OsziloskopBauen\Oszi\Programmieren\SPI\STM32L432KCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SPI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+=======
+SPI.elf SPI.map: $(OBJS) $(USER_OBJS) C:\schule\LABOR\Oszi_proj_2\OsziProject\Oszi\Programmieren\SPI\STM32L432KCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "SPI.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\schule\LABOR\Oszi_proj_2\OsziProject\Oszi\Programmieren\SPI\STM32L432KCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SPI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+>>>>>>> 832744f (ADC finished)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
