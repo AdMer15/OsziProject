@@ -1,0 +1,6 @@
+../Core/Src/tft_port.c:15:16:font_from_size	16	static
+../Core/Src/tft_port.c:27:6:TFT_Init	8	static
+../Core/Src/tft_port.c:32:6:TFT_FillScreen	16	static
+../Core/Src/tft_port.c:37:6:TFT_FillRect	40	static
+../Core/Src/tft_port.c:46:6:TFT_DrawLine	48	static
+../Core/Src/tft_port.c:69:6:TFT_DrawString	48	static

@@ -57,10 +57,16 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define MCO_Pin GPIO_PIN_0
-#define MCO_GPIO_Port GPIOA
+#define ADC_CH1_1V_Pin GPIO_PIN_0
+#define ADC_CH1_1V_GPIO_Port GPIOA
+#define ADC_CH1_10V_Pin GPIO_PIN_1
+#define ADC_CH1_10V_GPIO_Port GPIOA
 #define VCP_TX_Pin GPIO_PIN_2
 #define VCP_TX_GPIO_Port GPIOA
+#define ADC_CH2_36V_Pin GPIO_PIN_3
+#define ADC_CH2_36V_GPIO_Port GPIOA
+#define ADC_CH2_10V_Pin GPIO_PIN_4
+#define ADC_CH2_10V_GPIO_Port GPIOA
 #define CS_Pin GPIO_PIN_0
 #define CS_GPIO_Port GPIOB
 #define DC_Pin GPIO_PIN_1
@@ -71,8 +77,6 @@ void Error_Handler(void);
 #define SWCLK_GPIO_Port GPIOA
 #define VCP_RX_Pin GPIO_PIN_15
 #define VCP_RX_GPIO_Port GPIOA
-#define LD3_Pin GPIO_PIN_3
-#define LD3_GPIO_Port GPIOB
 #define DRS_Pin GPIO_PIN_4
 #define DRS_GPIO_Port GPIOB
 
