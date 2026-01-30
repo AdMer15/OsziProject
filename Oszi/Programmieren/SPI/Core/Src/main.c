@@ -21,9 +21,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "app_scope.h"
-#include "adc_dma.h"
-#include "scope_ranges.h"
+#include "oszi_adc.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -107,13 +106,12 @@ int main(void)
   MX_ADC1_Init();
   MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
-  AppScope_Init();
+  OsziAdc_Init();
 
-  HAL_TIM_OC_Start(&htim1, TIM_CHANNEL_1);
-  HAL_TIM_Base_Start(&htim1);
 
-  adc_dma_init();
-  adc_dma_start();
+  //AppScope_Init();
+
+
 
 
   /* USER CODE END 2 */
@@ -125,23 +123,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  adc_dma_block_t blk;
-
-	  if (adc_dma_get_block(&blk))
-	  {
-	    uint16_t r1 = blk.data[0];
-	    uint16_t r2 = blk.data[1];
-	    uint16_t r3 = blk.data[2];
-	    uint16_t r4 = blk.data[3];
-
-	    char msg[80];
-	    int n = snprintf(msg, sizeof(msg), "ADC: %u %u %u %u\r\n", r1, r2, r3, r4);
-	    HAL_UART_Transmit(&huart2, (uint8_t*)msg, n, 100);
-
-	    HAL_Delay(200);
-	  }
-
-
+	  OsziAdc_Loop();
 
 	   //AppScope_Loop();
 

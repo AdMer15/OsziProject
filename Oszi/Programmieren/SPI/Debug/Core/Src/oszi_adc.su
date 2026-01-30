@@ -1,0 +1,4 @@
+../Core/Src/oszi_adc.c:23:13:uart_print4	128	static
+../Core/Src/oszi_adc.c:30:6:OsziAdc_Init	8	static
+../Core/Src/oszi_adc.c:43:6:OsziAdc_Loop	24	static
+../Core/Src/oszi_adc.c:64:5:OsziAdc_GetLatest	16	static
