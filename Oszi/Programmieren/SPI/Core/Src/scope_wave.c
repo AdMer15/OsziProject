@@ -9,11 +9,6 @@
 #include "scope_layout.h"
 #include "scope_config.h"
 #include "tft_port.h"
-#include <math.h>
-
-#define LUT_SIZE 256
-
-static uint16_t sin_lut[LUT_SIZE];
 
 static ScopeChannelCfg chcfg[SCOPE_MAX_CH];
 
@@ -32,14 +27,28 @@ static int32_t map_y(uint16_t v, int16_t y_offset)
     return y;
 }
 
-void ScopeWave_Init(void)
+static void restore_grid_column(int32_t x)
 {
-    for(int32_t i=0;i<LUT_SIZE;i++){
-        float s = sinf(2.0f * 3.1415926f * (float)i / (float)LUT_SIZE);
-        float n = (s + 1.0f) * 0.5f;
-        sin_lut[i] = (uint16_t)(n * (float)SCOPE_ADC_MAX);
+    int32_t w = scope_grid_w();
+    int32_t h = scope_grid_h();
+
+    for(int32_t i=0;i<=SCOPE_DIV_X;i++){
+        int32_t gx = SCOPE_GRID_LEFT + (i*w)/SCOPE_DIV_X;
+        if(gx == x){
+            uint16_t c = (i == (SCOPE_DIV_X/2)) ? SCOPE_GRID_BOLD : SCOPE_GRID;
+            TFT_DrawLine(x, SCOPE_GRID_TOP, x, SCOPE_GRID_BOTTOM, c);
+        }
     }
 
+    for(int32_t i=0;i<=SCOPE_DIV_Y;i++){
+        int32_t y = SCOPE_GRID_TOP + (i*h)/SCOPE_DIV_Y;
+        uint16_t c = (i == (SCOPE_DIV_Y/2)) ? SCOPE_GRID_BOLD : SCOPE_GRID;
+        TFT_DrawLine(x, y, x, y, c);
+    }
+}
+
+void ScopeWave_Init(void)
+{
     chcfg[0].color = SCOPE_CH1_COLOR;
     chcfg[0].y_offset = 0;
     chcfg[0].vdiv_mV = 1000;
@@ -61,8 +70,8 @@ void ScopeWave_Reset(void)
 {
     last_x = SCOPE_GRID_LEFT;
     for(uint8_t ch=0; ch<SCOPE_MAX_CH; ch++){
-        last_y[ch] = map_y(0, chcfg[ch].y_offset);
         sample_ch[ch] = 0;
+        last_y[ch] = map_y(0, chcfg[ch].y_offset);
     }
     tick = 0;
 }
@@ -73,34 +82,33 @@ void ScopeWave_PushSample(uint8_t ch, uint16_t sample)
     sample_ch[ch] = sample;
 }
 
-static uint16_t test_signal(uint32_t t, uint8_t ch)
-{
-    uint32_t idx = (t + (ch ? LUT_SIZE/4 : 0)) % LUT_SIZE;
-    return sin_lut[idx];
-}
-
-void ScopeWave_RenderStep(void)
+int ScopeWave_RenderStep(void)
 {
     int32_t width = scope_grid_w();
     int32_t x = SCOPE_GRID_LEFT + (int32_t)(tick % (uint32_t)width);
 
-    if(x == SCOPE_GRID_LEFT){
+    int frame_start = (x == SCOPE_GRID_LEFT);
+
+    TFT_FillRect(x, SCOPE_GRID_TOP, 1, scope_grid_h(), SCOPE_BG);
+    restore_grid_column(x);
+
+    if(frame_start){
         for(uint8_t ch=0; ch<SCOPE_MAX_CH; ch++){
-            uint16_t v = test_signal(tick, ch);
-            int32_t y = map_y(v, chcfg[ch].y_offset);
-            last_y[ch] = y;
+            last_y[ch] = map_y(sample_ch[ch], chcfg[ch].y_offset);
         }
         last_x = x;
     }
 
     for(uint8_t ch=0; ch<SCOPE_MAX_CH; ch++){
-        uint16_t v = test_signal(tick, ch);
-        int32_t y = map_y(v, chcfg[ch].y_offset);
+        int32_t y = map_y(sample_ch[ch], chcfg[ch].y_offset);
         TFT_DrawLine(last_x, last_y[ch], x, y, chcfg[ch].color);
         last_y[ch] = y;
     }
 
     last_x = x;
     tick++;
+
+    return frame_start;
 }
+
 

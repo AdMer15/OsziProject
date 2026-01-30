@@ -12,6 +12,7 @@
 #include "scope_fps.h"
 #include "scope_overlay.h"
 #include "scope_config.h"
+#include "adc_dma.h"
 
 static ScopeOverlayState ov;
 
@@ -35,8 +36,27 @@ void AppScope_Init(void)
 
 void AppScope_Loop(void)
 {
-    ScopeWave_RenderStep();
-    ScopeFPS_FrameTick();
+    adc_dma_block_t blk;
+
+    while(adc_dma_get_block(&blk))
+    {
+        for (uint32_t i = 0; i < blk.packets; i++)
+        {
+            uint16_t r1 = blk.data[4*i + 0];
+            uint16_t r2 = blk.data[4*i + 1];
+            uint16_t r3 = blk.data[4*i + 2];
+            uint16_t r4 = blk.data[4*i + 3];
+
+            (void)r2;
+            (void)r4;
+
+            ScopeWave_PushSample(0, r1);
+            ScopeWave_PushSample(1, r3);
+
+            if (ScopeWave_RenderStep())
+                ScopeFPS_FrameTick();
+        }
+    }
 
     uint32_t fps = ScopeFPS_Get();
     if(fps != ov.fps){
@@ -44,4 +64,5 @@ void AppScope_Loop(void)
         ScopeOverlay_Update(&ov);
     }
 }
+
 

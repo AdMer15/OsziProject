@@ -21,6 +21,6 @@ void ScopeWave_SetChannelCfg(uint8_t ch, ScopeChannelCfg cfg);
 void ScopeWave_Reset(void);
 
 void ScopeWave_PushSample(uint8_t ch, uint16_t sample);
-void ScopeWave_RenderStep(void);
+int  ScopeWave_RenderStep(void);
 
 #endif /* INC_SCOPE_WAVE_H_ */

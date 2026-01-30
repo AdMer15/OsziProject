@@ -22,6 +22,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "oszi_adc.h"
+#include "app_scope.h"
 
 /* USER CODE END Includes */
 
@@ -107,9 +108,7 @@ int main(void)
   MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
   OsziAdc_Init();
-
-
-  //AppScope_Init();
+  AppScope_Init();
 
 
 
@@ -123,9 +122,8 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  OsziAdc_Loop();
-
-	   //AppScope_Loop();
+	   OsziAdc_Loop();
+	   AppScope_Loop();
 
   }
   /* USER CODE END 3 */

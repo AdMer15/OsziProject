@@ -1,9 +1,9 @@
 ../Core/Inc/scope_layout.h:26:23:scope_grid_w	1
 ../Core/Inc/scope_layout.h:27:23:scope_grid_h	1
-../Core/Src/scope_wave.c:25:16:map_y	3
-../Core/Src/scope_wave.c:35:6:ScopeWave_Init	2
-../Core/Src/scope_wave.c:54:6:ScopeWave_SetChannelCfg	2
-../Core/Src/scope_wave.c:60:6:ScopeWave_Reset	2
-../Core/Src/scope_wave.c:70:6:ScopeWave_PushSample	2
-../Core/Src/scope_wave.c:76:17:test_signal	2
-../Core/Src/scope_wave.c:82:6:ScopeWave_RenderStep	4
+../Core/Src/scope_wave.c:20:16:map_y	3
+../Core/Src/scope_wave.c:30:13:restore_grid_column	7
+../Core/Src/scope_wave.c:50:6:ScopeWave_Init	1
+../Core/Src/scope_wave.c:63:6:ScopeWave_SetChannelCfg	2
+../Core/Src/scope_wave.c:69:6:ScopeWave_Reset	2
+../Core/Src/scope_wave.c:79:6:ScopeWave_PushSample	2
+../Core/Src/scope_wave.c:85:5:ScopeWave_RenderStep	4

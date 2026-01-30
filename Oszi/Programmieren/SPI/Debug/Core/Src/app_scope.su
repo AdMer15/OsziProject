@@ -1,2 +1,2 @@
-../Core/Src/app_scope.c:18:6:AppScope_Init	8	static
-../Core/Src/app_scope.c:36:6:AppScope_Loop	16	static
+../Core/Src/app_scope.c:19:6:AppScope_Init	8	static
+../Core/Src/app_scope.c:37:6:AppScope_Loop	32	static
