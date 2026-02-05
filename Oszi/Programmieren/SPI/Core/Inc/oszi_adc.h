@@ -10,14 +10,9 @@
 
 #include <stdint.h>
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 void OsziAdc_Init(void);
 void OsziAdc_Loop(void);
 
-int  OsziAdc_GetLatest(uint16_t out4[4]);
 
 #ifdef __cplusplus
 }

@@ -4,6 +4,7 @@
 "./Core/Src/ili9341.o"
 "./Core/Src/main.o"
 "./Core/Src/oszi_adc.o"
+"./Core/Src/oszi_channels.o"
 "./Core/Src/scope_fps.o"
 "./Core/Src/scope_grid.o"
 "./Core/Src/scope_overlay.o"

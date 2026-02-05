@@ -1,0 +1,7 @@
+../Core/Src/oszi_channels.c:35:14:adc_to_vin_mV	1
+../Core/Src/oszi_channels.c:41:14:adc_fullscale_frac	2
+../Core/Src/oszi_channels.c:48:20:select_range	4
+../Core/Src/oszi_channels.c:62:17:pick_vdiv	6
+../Core/Src/oszi_channels.c:85:17:vin_to_disp_adc	3
+../Core/Src/oszi_channels.c:96:6:OsziChannels_Init	1
+../Core/Src/oszi_channels.c:109:6:OsziChannels_OnAdcPacket	7

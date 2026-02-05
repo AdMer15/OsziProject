@@ -1,4 +1,2 @@
-../Core/Src/oszi_adc.c:23:13:uart_print4	1
-../Core/Src/oszi_adc.c:30:6:OsziAdc_Init	1
-../Core/Src/oszi_adc.c:43:6:OsziAdc_Loop	3
-../Core/Src/oszi_adc.c:64:5:OsziAdc_GetLatest	2
+../Core/Src/oszi_adc.c:16:6:OsziAdc_Init	4
+../Core/Src/oszi_adc.c:33:6:OsziAdc_Loop	2

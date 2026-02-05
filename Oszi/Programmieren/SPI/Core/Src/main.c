@@ -110,9 +110,6 @@ int main(void)
   OsziAdc_Init();
   AppScope_Init();
 
-
-
-
   /* USER CODE END 2 */
 
   /* Infinite loop */
